@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__link">
+        <div class="header__logo">
+          <img
+            id="logoentete"
+            src="assets/KDA-logo 1.svg"
+            alt=""
+            class="header__logo-image"
+          />
+        </div>
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="index.html" class="header__nav-link">Accueil</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="cours.html" class="header__nav-link">Nos cours</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- hero-section -->
+      <section class="hero-section">
+        <div class="hero-section__container">
+          <div class="hero-section__content">
+            <h1 class="hero-section__title">
+              Apprenez à coder avec Kinshasa Digital Academy, c'est gratuit !
+            </h1>
+            <p class="hero-section__description">
+              Trouvez le bon cours et lancez-vous !!! Concentrez-vous sur ce qui
+              est nécessaire pour acquérir une compétence spécifique et
+              applicable. Vous serez mieux outillé pour construire une carrière.
+            </p>
+            <button class="hero-section__button">lancez-vous</button>
+          </div>
+          <div class="hero-section__image-container">
+            <img
+              src="assets/Coding workshop-pana 1.svg"
+              alt="illustration"
+              class="hero-section__image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- courses-section -->
+      <section class="courses-section">
+        <div class="courses-section__container">
+          <!-- card1 -->
+          <div class="courses-section__card courses-section__card--career">
+            <h3 class="courses-section__card-title">Construire une carrière</h3>
+            <p class="courses-section__card-description">
+              Nos offres sont complètes, avec tout ce dont vous avez besoin pour
+              construire votre carrière.
+            </p>
+          </div>
+
+          <!-- card2 -->
+          <div class="courses-section__card courses-section__card--skill">
+            <h3 class="courses-section__card-title">Acquérir une compétence</h3>
+            <p class="courses-section__card-description">
+              Concentrez-vous sur ce qui est nécessaire pour acquérir une
+              compétence spécifique et applicable.
+            </p>
+          </div>
+
+          <!-- card3 -->
+          <div class="courses-section__card courses-section__card--coding">
+            <h3 class="courses-section__card-title">Apprendre à coder</h3>
+            <p class="courses-section__card-description">
+              Trouvez le bon cours et lancez-vous. trouvez le bon cours et
+              pratiquez.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- coding-section -->
+      <section class="coding-section">
+        <div class="coding-section__container">
+          <div class="coding-section__image-container">
+            <img
+              src="assets/Code editor.svg"
+              alt="image-of-code-editor"
+              class="coding-section__image"
+            />
+          </div>
+          <div class="coding-section__content">
+            <h3 class="coding-section__title">
+              Commencez à coder en quelques secondes
+            </h3>
+            <p class="coding-section__description">
+              Allez-y, essayez. Grâce à notre environnement d'apprentissage
+              pratique, vous écrirez du vrai code dès votre première leçon.
+            </p>
+            <button class="coding-section__button">lancez-vous</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- learning-section -->
+      <section class="learning-section">
+        <div class="learning-section__container">
+          <div class="learning-section__header">
+            <h3 class="learning-section__title">
+              Démarrez votre apprentissage
+            </h3>
+          </div>
+
+          <div class="learning-section__courses">
+            <div class="learning-section__course-item">
+              <p class="learning-section__course-name">HTML et HTML5 de base</p>
+            </div>
+            <div class="learning-section__course-item">
+              <p class="learning-section__course-name">Les bases du CSS</p>
+            </div>
+            <div class="learning-section__course-item">
+              <p class="learning-section__course-name">
+                Conception visuelle appliquée
+              </p>
+            </div>
+          </div>
+
+          <div class="learning-section__footer">
+            <a href="cours.html" class="learning-section__more-courses"
+              >Voir plus de cours -></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- contact-section -->
+      <section class="contact-section">
+        <div class="contact-section__container">
+          <form
+            id="contactForm"
+            action="send.php"
+            method="post"
+            class="contact-section__form"
+          >
+            <div class="contact-section__header">
+              <h3 class="contact-section__title">Écrivez-nous !</h3>
+            </div>
+            <div class="contact-section__fields">
+              <div class="contact-section__field-group">
+                <div class="contact-section__field">
+                  <label for="nom" class="contact-section__label"
+                    >Votre nom</label
+                  >
+                  <input
+                    type="text"
+                    name="nom"
+                    id="nom"
+                    class="contact-section__input"
+                  />
+                </div>
+                <div class="contact-section__field">
+                  <label for="email" class="contact-section__label"
+                    >Votre email</label
+                  >
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="contact-section__input"
+                  />
+                </div>
+              </div>
+              <div class="contact-section__field">
+                <label for="message" class="contact-section__label"
+                  >Votre message</label
+                >
+                <textarea
+                  name="message"
+                  id="message"
+                  class="contact-section__textarea"
+                ></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="contact-section__submit-button">
+              Envoyez votre message
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <img
+              src="assets/KDA-logo 1.svg"
+              alt="logo-Kadea-footer"
+              class="footer__logo-image"
+            />
+          </div>
+          <div class="footer__contact">
+            <h3 class="footer__title">Texaf Digital Campus</h3>
+            <p class="footer__address">
+              Concession COTEX N° 63 Avenue Colonel Mondjiba Commune de Ngaliema
+              - Kinshasa
+            </p>
+            <div class="footer__social-media">
+              <div class="footer__social-media-item">
+                <img src="assets/facebook.svg" alt="logo-facebook" />
+              </div>
+              <div class="footer__social-media-item">
+                <img src="assets/linkedin.svg" alt="logo-linkedin" />
+              </div>
+              <div class="footer__social-media-item">
+                <img src="assets/twitter.svg" alt="logo-twitter" />
+              </div>
+              <div class="footer__social-media-item">
+                <img src="assets/instagram.svg" alt="logo-instagram" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
