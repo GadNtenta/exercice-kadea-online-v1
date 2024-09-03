@@ -385,7 +385,33 @@ footer .social-media-item img {
   height: 20px;
 }
 
-/* Mobile Styles */
+/* page nos cours */
+
+.intro-coding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.intro-coding__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.intro-coding__content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.intro-coding__description {
+  display: flex;
+  /* text-align: center; */
+  margin-right: 50%;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   h1 {
