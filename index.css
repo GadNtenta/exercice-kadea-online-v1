@@ -617,6 +617,42 @@ footer .social-media-item img {
   .footer__social-media-item {
     height: 14px;
   }
+
+  /* pages nos cours  */
+
+  /* coding  */
+  .intro-coding {
+    height: 60vh;
+  }
+  .intro-coding__container,
+  .course-overview__intro {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-coding__image-wrapper img {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .intro-coding__title h2,
+  .course-overview__header h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  /* learning  */
+
+  .course-overview__row {
+    flex-direction: column;
+  }
+
+  .course-overview {
+    height: auto;
+  }
 }
 
 /* Tablet Styles */
