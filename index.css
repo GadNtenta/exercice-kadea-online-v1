@@ -469,6 +469,17 @@ footer .social-media-item img {
   gap: 1rem;
 }
 
+.course-overview__item,
+.intro-coding__container {
+  width: auto;
+  height: auto;
+}
+
+.course-overview__navigation {
+  background-color: var(--fourth-color);
+  display: flex;
+  padding: 0 22%;
+}
 /* Mobile Styles */
 @media (max-width: 768px) {
   h1 {
@@ -795,5 +806,21 @@ footer .social-media-item img {
 
   .footer__logo {
     height: 50px;
+  }
+
+  /* nos cours  */
+
+  .course-overview__item,
+  .intro-coding__container {
+    width: auto;
+    height: auto;
+  }
+
+  .intro-coding__container,
+  .course-overview__intro {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
