@@ -482,6 +482,11 @@ footer .social-media-item img {
 }
 /* Mobile Styles */
 @media (max-width: 768px) {
+  main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   h1 {
     font-size: 24px;
   }
@@ -541,6 +546,9 @@ footer .social-media-item img {
     max-width: 100%;
   }
 
+  .hero-section__image {
+    display: none;
+  }
   /* Info Cards Section */
   .courses-section {
     flex-direction: column;
@@ -735,6 +743,10 @@ footer .social-media-item img {
   .hero-section__image {
     max-width: 90%;
     height: auto;
+  }
+
+  .hero-section__image {
+    display: none;
   }
 
   /* courses-section */
