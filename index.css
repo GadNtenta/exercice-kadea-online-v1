@@ -586,6 +586,10 @@ footer .social-media-item img {
     width: 100%;
   }
 
+  .coding-section__image {
+    display: none;
+  }
+
   /* Learning Section */
   .learning-section {
     padding: 2rem 1rem;
